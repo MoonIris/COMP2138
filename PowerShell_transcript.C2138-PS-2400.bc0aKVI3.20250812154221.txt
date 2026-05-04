@@ -1,0 +1,470 @@
+**********************
+PowerShell transcript start
+Start time: 20250812154221
+Username: ADATUM\Administrator
+RunAs User: ADATUM\Administrator
+Configuration Name: 
+Machine: C2138-PS-2400 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 7576
+PSVersion: 7.5.1
+PSEdition: Core
+GitCommitId: 7.5.1
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\Administrator\Documents\PowerShell_transcript.C2138-PS-2400.bc0aKVI3.20250812154221.txt
+PS2400-C:\Users\Administrator\MyScripts-(Administrator) >
+
+PS>.\Service-Menu.ps1
+                     ---------------------
+                     ServiceDesk Team Menu
+                     ---------------------
+
+
+Active Directory                                Folders And Shares
+----------------                                ------------------
+1.New User                                      3.New Folder
+2.Reset User Password                           4.New Share
+
+
+Permissions                                     Server Information
+------------                                    ------------------
+5.Add Permission To Folder                      7.Display Server Specs
+6.View Existion Permission on a Folder          8.Display Resource Information
+
+
+                            Exit Menu
+                            ---------
+                            9.Exit
+
+
+
+Welcome to the New User Sub-Menu. Here you can create a new ADUser
+Enter 0 to return to main menu at any point
+
+Password is not complex enough.
+Please include Uppercase, Lowercase, Numbers, and Symbols
+New AD User created named Iris Turner with Email Address Iris.Turner@adatum.com
+                     ---------------------
+                     ServiceDesk Team Menu
+                     ---------------------
+
+
+Active Directory                                Folders And Shares
+----------------                                ------------------
+1.New User                                      3.New Folder
+2.Reset User Password                           4.New Share
+
+
+Permissions                                     Server Information
+------------                                    ------------------
+5.Add Permission To Folder                      7.Display Server Specs
+6.View Existion Permission on a Folder          8.Display Resource Information
+
+
+                            Exit Menu
+                            ---------
+                            9.Exit
+
+
+
+Welcome to the Reset Password Sub-Menu. Here you can reset the password of an existing ADUser
+Enter 0 to return to main menu at any point
+
+Password is not complex enough.
+Please include Uppercase, Lowercase, Numbers, and Symbols
+Password for Iris Turner has been Reset
+                     ---------------------
+                     ServiceDesk Team Menu
+                     ---------------------
+
+
+Active Directory                                Folders And Shares
+----------------                                ------------------
+1.New User                                      3.New Folder
+2.Reset User Password                           4.New Share
+
+
+Permissions                                     Server Information
+------------                                    ------------------
+5.Add Permission To Folder                      7.Display Server Specs
+6.View Existion Permission on a Folder          8.Display Resource Information
+
+
+                            Exit Menu
+                            ---------
+                            9.Exit
+
+
+
+Welcome to the New Folder Sub-Menu. Here you can create a new folder
+Enter 0 to return to main menu at any point
+
+Folder created at: C:\Bridget
+                     ---------------------
+                     ServiceDesk Team Menu
+                     ---------------------
+
+
+Active Directory                                Folders And Shares
+----------------                                ------------------
+1.New User                                      3.New Folder
+2.Reset User Password                           4.New Share
+
+
+Permissions                                     Server Information
+------------                                    ------------------
+5.Add Permission To Folder                      7.Display Server Specs
+6.View Existion Permission on a Folder          8.Display Resource Information
+
+
+                            Exit Menu
+                            ---------
+                            9.Exit
+
+
+
+Welcome to the Smb Share Sub-Menu. Here you can modify Smb-Shares for files/folders
+
+
+1.New Smb-Share
+2.Existing Share
+3.Encryption
+4.Remove Share Access
+5.Add Read Access
+6.Add Full Access
+7.Return To Main Menu
+
+
+Here you can create a new smb-share
+Return to previous menu by pressing 0
+
+
+Create share Bridget at C:\Bridget
+
+1.New Smb-Share
+2.Existing Share
+3.Encryption
+4.Remove Share Access
+5.Add Read Access
+6.Add Full Access
+7.Return To Main Menu
+
+
+Here you can check out the existing share permissions of a share
+Return to previous menu by pressing 0
+
+Name    ScopeName Path       Description
+----    --------- ----       -----------
+Bridget *         C:\Bridget
+
+
+   Name: Bridget
+
+Name    ScopeName AccountName AccessControlType AccessRight
+----    --------- ----------- ----------------- -----------
+Bridget *         Everyone    Allow             Read
+
+
+1.New Smb-Share
+2.Existing Share
+3.Encryption
+4.Remove Share Access
+5.Add Read Access
+6.Add Full Access
+7.Return To Main Menu
+
+
+Here you can encrypt a share if you choose
+Return to previous menu by pressing 0
+
+Encrypted share Bridget
+
+1.New Smb-Share
+2.Existing Share
+3.Encryption
+4.Remove Share Access
+5.Add Read Access
+6.Add Full Access
+7.Return To Main Menu
+
+
+Here you can add a read share if you choose
+Return to previous menu by pressing 0
+
+
+Added Read share to Bridget for Iris Turner
+
+1.New Smb-Share
+2.Existing Share
+3.Encryption
+4.Remove Share Access
+5.Add Read Access
+6.Add Full Access
+7.Return To Main Menu
+
+
+Here you can add full access to a share for an account if you choose
+Return to previous menu by pressing 0
+
+Name    ScopeName AccountName        AccessControlType AccessRight
+----    --------- -----------        ----------------- -----------
+Bridget *         Everyone           Allow             Read
+Bridget *         ADATUM\Iris Turner Allow             Read
+Bridget *         Everyone           Allow             Read
+Bridget *         ADATUM\Iris Turner Allow             Full
+Added full access to Bridget for Iris Turner
+
+1.New Smb-Share
+2.Existing Share
+3.Encryption
+4.Remove Share Access
+5.Add Read Access
+6.Add Full Access
+7.Return To Main Menu
+
+
+Here you can remove share access from a share
+Return to previous menu by pressing 0
+
+Bridget *         Everyone           Allow             Read
+Removed Access to Bridget for Iris Turner
+
+1.New Smb-Share
+2.Existing Share
+3.Encryption
+4.Remove Share Access
+5.Add Read Access
+6.Add Full Access
+7.Return To Main Menu
+
+Exiting Menu
+                     ---------------------
+                     ServiceDesk Team Menu
+                     ---------------------
+
+
+Active Directory                                Folders And Shares
+----------------                                ------------------
+1.New User                                      3.New Folder
+2.Reset User Password                           4.New Share
+
+
+Permissions                                     Server Information
+------------                                    ------------------
+5.Add Permission To Folder                      7.Display Server Specs
+6.View Existion Permission on a Folder          8.Display Resource Information
+
+
+                            Exit Menu
+                            ---------
+                            9.Exit
+
+
+
+Welcome to the NTFS Permissions Sub-Menu. Here you can modify NTFS Permissions for files/folders
+
+
+1.Add NTFS Permission
+2.Remove NTFS Permission
+3.Remove NTFS Inherited Rights
+4.Return To Main Menu
+
+
+Here you can add NTFS Permissions to a file or folder
+Return to previous menu by pressing 0
+
+PS>TerminatingError(Add-NTFSAccess): "A parameter cannot be found that matches parameter name 'AccountName'."
+Failed to add access. Please check the path and or account name
+
+1.Add NTFS Permission
+2.Remove NTFS Permission
+3.Remove NTFS Inherited Rights
+4.Return To Main Menu
+
+
+Here you can remove NTFS Permissions to a file or folder
+Return to previous menu by pressing 0
+
+PS>TerminatingError(Remove-NTFSAccess): "A parameter cannot be found that matches parameter name 'AccountName'."
+Failed to remove access. Please check the path and or account name
+
+1.Add NTFS Permission
+2.Remove NTFS Permission
+3.Remove NTFS Inherited Rights
+4.Return To Main Menu
+
+
+Here you can remove NTFS inherited rights to a file or folder
+Return to previous menu by pressing 0
+
+Removed inherited rights to C:\Bridget
+
+1.Add NTFS Permission
+2.Remove NTFS Permission
+3.Remove NTFS Inherited Rights
+4.Return To Main Menu
+
+Exiting Menu
+                     ---------------------
+                     ServiceDesk Team Menu
+                     ---------------------
+
+
+Active Directory                                Folders And Shares
+----------------                                ------------------
+1.New User                                      3.New Folder
+2.Reset User Password                           4.New Share
+
+
+Permissions                                     Server Information
+------------                                    ------------------
+5.Add Permission To Folder                      7.Display Server Specs
+6.View Existion Permission on a Folder          8.Display Resource Information
+
+
+                            Exit Menu
+                            ---------
+                            9.Exit
+
+
+
+Welcome to the View NTFS Permission sub-menu. Here you can check out the NTFS Permissions of a folder/file
+Enter 0 to return to main menu at any point
+
+
+
+    Path: C:\Bridget (Inheritance disabled)
+
+
+Account                Access Rights Applies to     Type  IsInherited InheritedFrom
+-------                ------------- ----------     ----  ----------- -------------
+BUILTIN\Administrators FullControl   ThisFolderOnly Allow False
+
+                     ---------------------
+                     ServiceDesk Team Menu
+                     ---------------------
+
+
+Active Directory                                Folders And Shares
+----------------                                ------------------
+1.New User                                      3.New Folder
+2.Reset User Password                           4.New Share
+
+
+Permissions                                     Server Information
+------------                                    ------------------
+5.Add Permission To Folder                      7.Display Server Specs
+6.View Existion Permission on a Folder          8.Display Resource Information
+
+
+                            Exit Menu
+                            ---------
+                            9.Exit
+
+
+
+Welcome to the Server Specs Sub-Menu. Here you can check out the server specs
+Enter 0 to return to main menu at any point
+
+Operating System: Microsoft Windows Server 2025 Standard
+Version: 10.0.26100
+CPU: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+Memory: 4294967296
+Disks:
+
+Name Size(GB)
+---- --------
+   I    17.99
+         0.66
+   D     5.60
+         0.09
+   G     2.00
+   J     7.98
+   H    12.00
+   C    59.23
+
+
+
+
+
+                     ---------------------
+                     ServiceDesk Team Menu
+                     ---------------------
+
+
+Active Directory                                Folders And Shares
+----------------                                ------------------
+1.New User                                      3.New Folder
+2.Reset User Password                           4.New Share
+
+
+Permissions                                     Server Information
+------------                                    ------------------
+5.Add Permission To Folder                      7.Display Server Specs
+6.View Existion Permission on a Folder          8.Display Resource Information
+
+
+                            Exit Menu
+                            ---------
+                            9.Exit
+
+
+
+Welcome to the Server Resources Sub-Menu. Here you can check out the server resources
+Enter 0 to return to main menu at any point
+
+Uptime: 00:30:46
+Disks:
+
+Name Free Space(GB)
+---- --------------
+   I          17.99
+               0.14
+   D              0
+               0.06
+   G           2.00
+   J           7.95
+   H          11.96
+   C          45.90
+
+CPU Utilization (per socket): 94 93
+
+
+
+
+                     ---------------------
+                     ServiceDesk Team Menu
+                     ---------------------
+
+
+Active Directory                                Folders And Shares
+----------------                                ------------------
+1.New User                                      3.New Folder
+2.Reset User Password                           4.New Share
+
+
+Permissions                                     Server Information
+------------                                    ------------------
+5.Add Permission To Folder                      7.Display Server Specs
+6.View Existion Permission on a Folder          8.Display Resource Information
+
+
+                            Exit Menu
+                            ---------
+                            9.Exit
+
+
+Exiting Menu
+PS2400-C:\Users\Administrator\MyScripts-(Administrator) >
+
+PS>STOP-TRANSCRIPT
+**********************
+PowerShell transcript end
+End time: 20250812154621
+**********************
